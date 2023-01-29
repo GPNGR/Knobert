@@ -849,7 +849,7 @@
     (property "Value" "100R" (at 43.815 131.445 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 45.72 130.81 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 45.72 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 130.81 0)
@@ -878,7 +878,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R22") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -893,7 +893,7 @@
     (property "Value" "100n" (at 125.0887 135.255 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 125.095 137.795 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 125.095 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.095 137.795 0)
@@ -928,7 +928,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C26") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -973,7 +973,7 @@
     (property "Value" "100n" (at 41.2687 90.805 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 41.275 93.345 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 41.275 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.275 93.345 0)
@@ -1008,7 +1008,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C19") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1047,7 +1047,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 45.72 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f737fbf-d0db-4aa9-a41e-c42fbb8ca6f9)
-    (property "Reference" "D31" (at 54.61 92.71 0)
+    (property "Reference" "D15" (at 54.61 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 54.61 95.25 0)
@@ -1090,7 +1090,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D31") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
       (project "led_matrix"
@@ -1110,7 +1110,7 @@
     (property "Value" "100R" (at 98.425 42.545 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 100.33 41.91 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 100.33 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 41.91 0)
@@ -1139,7 +1139,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R16") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1148,7 +1148,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 129.54 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14a0c6e4-6b40-4767-9e3f-0a9721bbbdd6)
-    (property "Reference" "D34" (at 138.43 92.71 0)
+    (property "Reference" "D24" (at 138.43 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 138.43 95.25 0)
@@ -1191,7 +1191,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D34") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
       (project "led_matrix"
@@ -1211,7 +1211,7 @@
     (property "Value" "100n" (at 95.8787 90.805 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 95.885 93.345 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 95.885 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.885 93.345 0)
@@ -1246,7 +1246,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C21") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -1261,7 +1261,7 @@
     (property "Value" "100n" (at 125.0887 90.805 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 125.095 93.345 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 125.095 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.095 93.345 0)
@@ -1296,7 +1296,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C22") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1341,7 +1341,7 @@
     (property "Value" "100n" (at 125.0887 46.355 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 125.095 48.895 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 125.095 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 125.095 48.895 0)
@@ -1385,7 +1385,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 74.93 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d0a8bd8-6544-4767-ae57-36a6e95075a5)
-    (property "Reference" "D36" (at 83.82 137.16 0)
+    (property "Reference" "D19" (at 83.82 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 83.82 139.7 0)
@@ -1428,7 +1428,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D36") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
       (project "led_matrix"
@@ -1478,7 +1478,7 @@
     (property "Value" "100n" (at 41.2687 46.355 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 41.275 48.895 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 41.275 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.275 48.895 0)
@@ -1513,7 +1513,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C15") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1552,7 +1552,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 45.72 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 266a4d92-f112-4006-8048-eff5473ed6d8)
-    (property "Reference" "D27" (at 54.61 48.26 0)
+    (property "Reference" "D14" (at 54.61 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 54.61 50.8 0)
@@ -1595,7 +1595,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D27") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
       (project "led_matrix"
@@ -1615,7 +1615,7 @@
     (property "Value" "100n" (at 70.4787 46.355 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 70.485 48.895 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 70.485 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 70.485 48.895 0)
@@ -1650,7 +1650,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C16") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1665,7 +1665,7 @@
     (property "Value" "100R" (at 127.635 42.545 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 129.54 41.91 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129.54 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 41.91 0)
@@ -1694,7 +1694,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R17") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1709,7 +1709,7 @@
     (property "Value" "100R" (at 73.025 131.445 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 74.93 130.81 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 74.93 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 130.81 0)
@@ -1738,7 +1738,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R23") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1753,7 +1753,7 @@
     (property "Value" "100n" (at 95.8787 46.355 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 95.885 48.895 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 95.885 48.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.885 48.895 0)
@@ -1788,7 +1788,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C17") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1803,7 +1803,7 @@
     (property "Value" "100n" (at 70.4787 90.805 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 70.485 93.345 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 70.485 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 70.485 93.345 0)
@@ -1838,7 +1838,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C20") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -1847,7 +1847,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 100.33 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f8dba49-8c38-40b4-95c9-a215d174320c)
-    (property "Reference" "D37" (at 109.22 137.16 0)
+    (property "Reference" "D22" (at 109.22 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 109.22 139.7 0)
@@ -1890,7 +1890,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D37") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
       (project "led_matrix"
@@ -2000,7 +2000,7 @@
     (property "Value" "100n" (at 95.8787 135.255 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 95.885 137.795 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 95.885 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.885 137.795 0)
@@ -2035,7 +2035,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C25") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2050,7 +2050,7 @@
     (property "Value" "100R" (at 98.425 86.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 100.33 86.36 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 100.33 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 86.36 0)
@@ -2079,7 +2079,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R20") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2094,7 +2094,7 @@
     (property "Value" "100R" (at 43.815 42.545 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 45.72 41.91 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 45.72 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 41.91 0)
@@ -2123,7 +2123,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R14") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2198,7 +2198,7 @@
     (property "Value" "100n" (at 70.4787 135.255 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 70.485 137.795 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 70.485 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 70.485 137.795 0)
@@ -2233,7 +2233,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C24") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2248,7 +2248,7 @@
     (property "Value" "100R" (at 43.815 86.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 45.72 86.36 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 45.72 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 45.72 86.36 0)
@@ -2277,7 +2277,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R18") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2286,7 +2286,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 74.93 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93edb40d-7870-4465-8f09-6d17e3b87ceb)
-    (property "Reference" "D28" (at 83.82 48.26 0)
+    (property "Reference" "D17" (at 83.82 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 83.82 50.8 0)
@@ -2329,7 +2329,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D28") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
       (project "led_matrix"
@@ -2349,7 +2349,7 @@
     (property "Value" "100n" (at 41.2687 135.255 90)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "acheron_Components:C_0402_1005Metric" (at 41.275 137.795 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 41.275 137.795 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.275 137.795 0)
@@ -2384,7 +2384,7 @@
           (reference "C11") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "C23") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2423,7 +2423,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 129.54 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0ae2f54-b7cc-40b2-b1c1-5b6aa9d1c0ae)
-    (property "Reference" "D38" (at 138.43 137.16 0)
+    (property "Reference" "D25" (at 138.43 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 138.43 139.7 0)
@@ -2466,7 +2466,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D38") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
       (project "led_matrix"
@@ -2486,7 +2486,7 @@
     (property "Value" "100R" (at 98.425 131.445 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 100.33 130.81 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 100.33 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 100.33 130.81 0)
@@ -2515,7 +2515,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R24") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2530,7 +2530,7 @@
     (property "Value" "100R" (at 127.635 131.445 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 129.54 130.81 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129.54 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 130.81 0)
@@ -2559,7 +2559,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R25") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2574,7 +2574,7 @@
     (property "Value" "100R" (at 127.635 86.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 129.54 86.36 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 129.54 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 86.36 0)
@@ -2603,7 +2603,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R21") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2618,7 +2618,7 @@
     (property "Value" "100R" (at 73.025 42.545 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 74.93 41.91 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 74.93 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 41.91 0)
@@ -2647,7 +2647,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R15") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2746,7 +2746,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 100.33 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cae7ce6b-61fe-41d5-bc90-3eaa625c11a5)
-    (property "Reference" "D29" (at 109.22 48.26 0)
+    (property "Reference" "D20" (at 109.22 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 109.22 50.8 0)
@@ -2789,7 +2789,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D29") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
       (project "led_matrix"
@@ -2953,7 +2953,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 100.33 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dba0db35-4c12-476b-a5f8-5c14fd0331aa)
-    (property "Reference" "D33" (at 109.22 92.71 0)
+    (property "Reference" "D21" (at 109.22 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 109.22 95.25 0)
@@ -2996,7 +2996,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D33") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
       (project "led_matrix"
@@ -3010,7 +3010,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 74.93 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e28c6768-367e-4e3e-8f1c-d7f9c9b889e8)
-    (property "Reference" "D32" (at 83.82 92.71 0)
+    (property "Reference" "D18" (at 83.82 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 83.82 95.25 0)
@@ -3053,7 +3053,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D32") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
       (project "led_matrix"
@@ -3127,7 +3127,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 45.72 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f281fe1a-c715-42a3-92b6-553c9418147d)
-    (property "Reference" "D35" (at 54.61 137.16 0)
+    (property "Reference" "D16" (at 54.61 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 54.61 139.7 0)
@@ -3170,7 +3170,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D35") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
       (project "led_matrix"
@@ -3190,7 +3190,7 @@
     (property "Value" "100R" (at 73.025 86.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "acheron_Components:R_0402_1005Metric" (at 74.93 86.36 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 74.93 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 86.36 0)
@@ -3219,7 +3219,7 @@
           (reference "R7") (unit 1)
         )
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "R19") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3228,7 +3228,7 @@
   (symbol (lib_id "acheron_Symbols:SK6812MINI-E") (at 129.54 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f333ca0c-19f6-4bff-ab8e-53aa97450ff2)
-    (property "Reference" "D30" (at 138.43 48.26 0)
+    (property "Reference" "D23" (at 138.43 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SK6812MINI-E" (at 138.43 50.8 0)
@@ -3271,7 +3271,7 @@
     (instances
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f2b5d11f-4e08-4392-a46c-e1211b7a1c4c"
-          (reference "D30") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
       (project "led_matrix"

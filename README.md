@@ -1,4 +1,4 @@
-# XII
+# Knobert
 
 Simple 4x3 macro pad with rotary encoder and OLED display
 

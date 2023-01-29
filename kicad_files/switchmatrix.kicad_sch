@@ -183,6 +183,10 @@
     (stroke (width 0) (type default))
     (uuid 094c519f-e424-42ff-a665-8a11bc95459b)
   )
+  (wire (pts (xy 150.495 47.625) (xy 150.495 127))
+    (stroke (width 0) (type default))
+    (uuid 0d4e39a8-d302-4a51-b5dc-21b05af289ad)
+  )
   (polyline (pts (xy 21.59 26.035) (xy 179.705 26.035))
     (stroke (width 0.508) (type dash))
     (uuid 0d7f5e60-a028-4001-91d3-61190aba7528)
@@ -195,10 +199,6 @@
   (wire (pts (xy 37.465 47.625) (xy 48.895 47.625))
     (stroke (width 0) (type default))
     (uuid 1546979a-b8b9-40b0-b6f9-eb8dde720974)
-  )
-  (wire (pts (xy 141.605 42.545) (xy 141.605 66.675))
-    (stroke (width 0) (type default))
-    (uuid 15d6cc19-816f-4b69-86c3-dc17b9464ef7)
   )
   (wire (pts (xy 40.005 66.675) (xy 40.005 104.775))
     (stroke (width 0) (type default))
@@ -294,7 +294,7 @@
     (stroke (width 0) (type default))
     (uuid 8d49067c-3be3-4b66-8382-5ec2b59c651f)
   )
-  (wire (pts (xy 153.035 59.69) (xy 150.495 59.69))
+  (wire (pts (xy 153.035 136.525) (xy 150.495 136.525))
     (stroke (width 0) (type default))
     (uuid 8dfbf52f-c35b-490f-a8f2-c1df715dd91b)
   )
@@ -330,10 +330,6 @@
   (wire (pts (xy 99.695 131.445) (xy 99.695 133.985))
     (stroke (width 0) (type default))
     (uuid b71a2bc4-f31a-4252-b29d-8bca4c6d4711)
-  )
-  (wire (pts (xy 150.495 50.165) (xy 150.495 47.625))
-    (stroke (width 0) (type default))
-    (uuid b7802767-b77e-4d8f-a870-79296c2c8685)
   )
   (wire (pts (xy 37.465 123.825) (xy 48.895 123.825))
     (stroke (width 0) (type default))
@@ -376,7 +372,7 @@
     (stroke (width 0) (type default))
     (uuid dd5497cc-14ef-421b-bc74-aa5cf05a0bcd)
   )
-  (wire (pts (xy 150.495 55.245) (xy 150.495 59.69))
+  (wire (pts (xy 150.495 132.08) (xy 150.495 136.525))
     (stroke (width 0) (type default))
     (uuid de5ed050-d4f4-4791-a203-0e92b9582c50)
   )
@@ -395,6 +391,10 @@
   (wire (pts (xy 74.295 47.625) (xy 74.295 50.165))
     (stroke (width 0) (type default))
     (uuid e699986f-0ebe-4b70-98f2-1d4d28c07e7a)
+  )
+  (wire (pts (xy 141.605 42.545) (xy 141.605 143.51))
+    (stroke (width 0) (type default))
+    (uuid e720e4d2-4c2b-42c7-80cb-dc3d62870a4f)
   )
   (wire (pts (xy 125.095 133.985) (xy 125.095 131.445))
     (stroke (width 0) (type default))
@@ -427,10 +427,10 @@
     (uuid 791617eb-3a28-4e22-9686-9a1d2d9e15ba)
   )
 
-  (global_label "ENCODER_SW2" (shape input) (at 141.605 66.675 0) (fields_autoplaced)
+  (global_label "ENCODER_SW2" (shape input) (at 141.605 143.51 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left))
     (uuid 2d994218-fca9-4b4f-8672-1b1b6e780707)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 154.6823 66.675 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 154.6823 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -448,10 +448,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "ENCODER_SW1" (shape input) (at 153.035 59.69 0) (fields_autoplaced)
+  (global_label "ENCODER_SW1" (shape input) (at 153.035 136.525 0) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left))
     (uuid b76cb8ae-f269-4dfc-bfe7-7ed71c02a3fe)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 166.1123 59.69 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 166.1123 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -541,7 +541,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW8") (unit 1)
+          (reference "SW5") (unit 1)
         )
       )
     )
@@ -590,7 +590,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW5") (unit 1)
+          (reference "SW7") (unit 1)
         )
       )
     )
@@ -639,7 +639,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW13") (unit 1)
+          (reference "SW9") (unit 1)
         )
       )
     )
@@ -688,7 +688,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW14") (unit 1)
+          (reference "SW12") (unit 1)
         )
       )
     )
@@ -737,7 +737,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW9") (unit 1)
+          (reference "SW8") (unit 1)
         )
       )
     )
@@ -786,7 +786,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW6") (unit 1)
+          (reference "SW10") (unit 1)
         )
       )
     )
@@ -835,7 +835,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW7") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -884,7 +884,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW12") (unit 1)
+          (reference "SW6") (unit 1)
         )
       )
     )
@@ -930,40 +930,40 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D9") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:D_Small") (at 150.495 52.705 270) (unit 1)
+  (symbol (lib_id "Device:D_Small") (at 150.495 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a6754d8-0969-43d1-9c93-d2b705f848ba)
-    (property "Reference" "D4" (at 153.035 52.07 90)
+    (property "Reference" "D4" (at 153.035 128.905 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4148W" (at 153.035 54.61 90)
+    (property "Value" "1N4148W" (at 153.035 131.445 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "acheron_Components:D_SOD-123" (at 150.495 52.705 90)
+    (property "Footprint" "acheron_Components:D_SOD-123" (at 150.495 129.54 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 150.495 52.705 90)
+    (property "Datasheet" "~" (at 150.495 129.54 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "SOD-123" (at 150.495 52.705 0)
+    (property "Package" "SOD-123" (at 150.495 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 150.495 52.705 0)
+    (property "Manufacturer" "" (at 150.495 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer Part Number" "" (at 150.495 52.705 0)
+    (property "Manufacturer Part Number" "" (at 150.495 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Vendor Part Number" "" (at 150.495 52.705 0)
+    (property "Vendor Part Number" "" (at 150.495 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "small switching diode" (at 150.495 52.705 0)
+    (property "Description" "small switching diode" (at 150.495 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d98be554-70d4-46ee-bb1c-98c9200b49ea))
@@ -976,7 +976,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D15") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -1025,7 +1025,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW11") (unit 1)
+          (reference "SW3") (unit 1)
         )
       )
     )
@@ -1071,7 +1071,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D12") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1166,7 +1166,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D6") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1258,7 +1258,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D11") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1304,7 +1304,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D8") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1350,7 +1350,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D14") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1396,7 +1396,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D10") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1445,7 +1445,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW10") (unit 1)
+          (reference "SW11") (unit 1)
         )
       )
     )
@@ -1491,7 +1491,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1537,7 +1537,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D5") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -1583,7 +1583,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D13") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1629,7 +1629,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "D7") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1678,7 +1678,7 @@
       )
       (project "Knobert_MacroPad"
         (path "/9ce6b20d-0a6c-402a-b232-5eafd6242eb3/f615437f-133a-4080-aefa-693736a8a6cf"
-          (reference "SW3") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
